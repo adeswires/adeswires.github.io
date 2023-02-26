@@ -1,0 +1,1471 @@
+	<!DOCTYPE HTML>
+	<!--
+		Dimension by HTML5 UP
+		html5up.net | @ajlkn
+		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	-->
+	<html>
+		<head>
+			<title>Adeline Swires</title>
+			<link rel="icon" type="img/x-icon" href="./images/favicon.ico?v=2">
+			<meta name='description' content='Descriptive, keyword-rich text that talks about the page content goes here.'/>
+			<description content="testing this out"></description>
+			<meta name="google-site-verification" content="XnBfuSNsBXQc1zpLEYfyf27ZNdJV0JvC8-JTJrGEI8A" />
+			<meta charset="utf-8" />
+			google-site-verification=qQJnH5QHJCbylemQRJZJuoYtAIGQ3Cu-fHIthMVMhms
+			<meta name="author" content="Adeline Swires">
+			<meta name="msvalidate.01" content="9E6E1237F64FCDEE64C6845B0EF83261" />
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+			<link rel="stylesheet" href="assets/css/main.css" />
+			<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+			
+			<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+			<!-- <script>
+				var imgCount = -1;
+				var images = ["images/video6.mp4","images/video2.mov","images/video3.mp4","images/video4.mov","images/video5.mov"];
+				function change(e) {
+				//   $e.preventDefault();
+				  if (imgCount !== images.length - 1)
+					imgCount++;
+				  else 
+					imgCount = 0;
+				  var video = document.getElementById('vid1');
+				  video.src = images[imgCount];
+				//   return false;
+				}
+				</script> -->
+				<script>
+					$(document).ready(function(){
+                    $('li').click(function(){
+                    var imgpath = $(this).attr('dir');
+                    $('#video1').html('<video src='+imgpath+' loop autoplay preload="auto|metadata|none" muted type="video/mp4">');
+                    });
+                    $('.btn').click(function(){
+                    $('#gallery').fadeIn(500);
+                    $('#video1').animate({marginTop:'10px'},200);
+                    $(this).hide();
+                    $('#hide').fadeIn('slow');
+                    });
+                    $('#hide').click(function(){
+                    $('#gallery').fadeOut(500,function (){
+                    $('#video1').animate({marginTop:'50px'},200);
+                    });
+                    $(this).hide();
+                    $('#show').fadeIn('slow');
+                    });
+                    });
+				</script>
+		</head>
+		<body class="is-preload">
+
+			<!-- Wrapper -->
+				<div id="wrapper">
+
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<i class="fas fa-tint"></i>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1><img src="https://user-images.githubusercontent.com/86431563/148703421-4d7d7e6c-26aa-4bd8-b120-132aa1cfb07d.png" height="30px" width="30px"/> Adeline,</h1><h2>Nice to meet you.</h2>
+								<p>This website is under construction with a few sections available to view</p>
+							</div>
+						</div>
+						<div class="break">
+								<a href="#intro"><div class="blocks">Intro</div></a>
+								<a href="#projects"><div class="blocks">Projects</div></a>
+								<a href="#skills"><div class="blocks">Skills</div></a>
+								<a href="#experience"><div class="blocks">Experience</div></a>
+								<!-- <div class="blocks2"></div> -->
+								<a href="#awards"><div class="blocks">Awards</div></a>
+								<a href="#photography"><div class="blocks">Photography</div></a>
+								<a href="#motion"><div class="blocks">Motion</div></a>
+								<a href="#music"><div class="blocks">Music</div></a>
+								<!-- <div class="blocks2"></div> -->
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+		
+				
+				<!-- Videos -->
+					<article id="motion">
+						<h2 class="major1">Motion</h2>
+						<!-- <video id="vid1" height="400px" loop autoplay preload="auto|metadata|none" muted onclick="return change(e)">
+							<source src="images/video.mov" id="vid" type="video/mp4">
+							<source src="images/video.mov" id="vid" type="video/ogg">
+						</video> -->
+						<div id="container">
+							<div id="gallery">
+								<ul>
+								<li dir="images/video3.mov">1</li>
+								<li dir="images/videoLigh.mp4">2</li>
+								<li dir="images/videoLayer2.mp4">3</li>
+								<!-- <li dir="images/vidNYC.mp4">[ 4 ]</li> -->
+								<li dir="images/vidLake2.mp4">4</li>
+								<!-- <li dir="images/videoGreenWater3.mp4">[ 6 ]</li> -->
+								<li dir="images/videoGreenWater.mp4">5</li>
+								<!-- <li dir="images/videoQuarry0.mp4">6</li> -->
+								<li dir="images/videoWat2.mp4">6</li>
+								</ul>
+							</div>
+							<div id="video1">
+								<video src="images/video3.mov" loop autoplay preload="auto|metadata|none" muted type="video/mp4"></video>
+							</div>
+							<div class="invisible">
+								<video src="images/videoLigh.mp4" loop autoplay preload="auto|metadata|none" muted type="video/mp4"></video>
+							</div>
+							<div class="invisible">
+								<video src="images/videoLayer2.mp4" loop autoplay preload="auto|metadata|none" muted type="video/mp4"></video>
+							</div>
+							<div class="invisible">
+								<video src="images/vidLake2.mp4" loop autoplay preload="auto|metadata|none" muted type="video/mp4"></video>
+							</div>
+							<div class="invisible">
+								<video src="images/videoGreenWater.mp4" loop autoplay preload="auto|metadata|none" muted type="video/mp4"></video>
+							</div>
+							<div class="invisible">
+								<video src="images/videoWat2.mp4" loop autoplay preload="auto|metadata|none" muted type="video/mp4"></video>
+							</div>
+						</div>
+						
+						<center>
+							<!-- <script>
+								document.getElementById('vid').play();
+							</script> -->
+							<!-- <div class="container">
+								<video id="vid" width="265.63" loop autoplay muted>
+									<source src="images/video.mov" type="video/mp4">
+									<source src="images/video.mov" type="video/ogg">
+								</video>
+							</div>
+							<div class="container">
+								<video id="vid" width="265.63" loop autoplay muted name="media">
+									<source src="images/video6.mp4" type="video/mp4">
+									<source src="images/video6-.mp4" type="video/ogg">
+								</video>
+							</div>
+							<div class="container" style="overflow: hidden;">
+								<video id="vid" width="340" loop autoplay muted style="margin-top: -18%; margin-bottom: -19%">
+									<source src="images/video2.mov" type="video/mp4">
+									<source src="images/video2.mov" type="video/ogg">
+								</video>
+							</div>
+							<div class="container" style="overflow: hidden;">
+								<video id="vid" width="320" loop autoplay id="vid" muted name="media" style="margin-top: -18%; margin-bottom: -15%">
+									<source src="images/video3.mp4" type="video/mp4">
+									<source src="images/video3.mp4" type="video/ogg">
+								</video>
+							</div>
+							<div class="container" style="overflow: hidden;">
+								<video id="vid" width="310" loop autoplay muted style="margin-top: -3%;"> 
+									<source src="images/video4.mov" type="video/mp4">
+									<source src="images/video4.mov" type="video/ogg">
+								</video>
+							</div>
+							<div class="container" style="overflow: hidden;">
+								<video id="vid" width="265.63" loop autoplay muted style="margin-top: -20%"> 
+									<source src="images/video5.mov" type="video/mp4">
+									<source src="images/video5.mov" type="video/ogg">
+								</video>
+							</div> -->
+							<!-- <div class="container">
+								<video id="vid" width="265.63" loop autoplay id="vid" muted> 
+									<source src="images/video8.mov" type="video/mp4">
+									<source src="images/video8.mov" type="video/ogg">
+								</video>
+							</div> -->
+							<!-- <div class="container" style="overflow: hidden;">
+								<video id="vid" width="265.63" loop autoplay id="vid" muted style="margin-top: -40%;margin-bottom: -17%"> 
+									<source src="images/video10.mov" type="video/mp4">
+									<source src="images/video10.mov" type="video/ogg">
+								</video>
+							</div> -->
+							<!-- <div class="container">
+								<video id="vid" width="265.63" loop autoplay id="vid" muted> 
+									<source src="images/video9.mov" type="video/mp4">
+									<source src="images/video9.mov" type="video/ogg">
+								</video>
+							</div> -->
+						</center>
+						<div class="linksWrapper">
+							<div class="linkBackward"><- <a href="#music">music</a></div>
+							<!-- <div class="linkForward" id="contactt"><a href="#contact">contact</a></div> -->
+							<div class="linkForward"><a href="#photography">photography</a> -></div>
+						</div>
+						</br>
+					</article>
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+									<h3>Under construction</h3><p></p>
+									<div>Recent project examples include clones of Kickstarter,<br>
+										Product Hunt, and MapMyRun: <a href="#projects" class="linkFirstForward">projects</a></div>
+								<!-- </div> -->
+							</article>
+
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								<span class="image main"></span>
+								<div class="image main project1"><br><a href="http://construct-hunt.herokuapp.com/"><img src="https://user-images.githubusercontent.com/86431563/158091472-83460d60-1484-4bb2-b518-0d7ca497d279.png" width="575" height="300"/></a><br><a href="http://construct-hunt.herokuapp.com/">ConstructHunt</a>, a Product Hunt clone for the physical built environment including architecture, landscape architecture, and urban city planning. <br><i>(Solo project that's being edited & added to)</i></br></div>
+									<div class="repo"><a href="https://github.com/adeswires/ConstructHunt" class="icon brands fa-github">&nbsp;&nbsp;<span>Repo</span></a></div>
+								<hr>
+								<div class="image main project1"><br><a href="https://map-byfun.herokuapp.com/"><img src="https://user-images.githubusercontent.com/86431563/149448117-e063cd40-1907-4b26-b802-8a49ca7686ad.PNG" width="575" height="300"/></a><br><a href="https://map-byfun.herokuapp.com/">MapByFun</a>, a MapMyRun clone that bridges Eventbrite and Google Maps with alternative use for delivery and shipping logistics. <i>(Solo project that's being added to)</i></div>
+									<div class="repo"><a href="https://github.com/adeswires/mapbyfun" class="icon brands fa-github">&nbsp;&nbsp;<span>Repo</span></a></div>
+								<hr>
+								<!-- <div class="image main project1"><br><a href="https://seed-starter.herokuapp.com/"><img src="https://user-images.githubusercontent.com/86431563/149450067-4a701862-ad3a-4ecd-b7ee-b2a6ac8878d1.PNG" width="575" height="300"/></a><br><a href="https://seed-starter.herokuapp.com/">SeedStarter</a>, a Kickstarter clone of seed funding for environmental and community-focused projects. <i>(Group project that's being added to)</i></br></div>
+									<div class="repo"><a href="https://github.com/adeswires/SeedStarter" class="icon brands fa-github">&nbsp;&nbsp;<span>Repo</span></a></div>
+								<hr> -->
+								<div class="image main project1"><br><a href="https://issuu.com/ad-sw/docs/geographic-information-systems_3d-models"><img src="https://user-images.githubusercontent.com/86431563/218387720-f4b2e3b7-dfb8-4b78-bb56-c2a63ca6d69a.png" width="575" height="300"/></a><br><a href="https://issuu.com/ad-sw/docs/geographic-information-systems_3d-models">LArch College Portfolio</a> showing 3D modeling with plugins including parametric design (Grasshopper), GIS (Geographic Information Systems)/ArcGIS mapping, AutoCAD construction, graphic design, hand illustration, and other technical to design skills.</br></div>
+								<div class="linksWrapper">
+									<div class="linkBackward"><- <a href="#intro">intro</a></div>
+									<div class="linkForward"><a href="#skills">current skills</a> -></div>
+								</div>
+							</article>
+
+						<!-- Skills -->
+							<article id="skills">
+								<h2 class="major">Skills</h2>
+
+								<span class="image main">Outdated: Update in Progress
+									<img>
+								</span>
+								<br>
+								<img src="https://img.shields.io/badge/JavaScript-080F18?logo=javascript&logoColor=white"/>
+								<img src="https://img.shields.io/badge/React.js-333F51?logo=react&logoColor=white">
+								<img src="https://img.shields.io/badge/Redux-81a0c2?logo=redux&logoColor=white">
+								<img src="https://img.shields.io/badge/Express.js-c5e0ec?logo=express&logoColor=white"><br>
+								<img src="https://img.shields.io/badge/Python-080F18?logo=python&logoColor=white">
+								<img src="https://img.shields.io/badge/Flask-333F51?logo=flask&logoColor=white">
+								<img src="https://img.shields.io/badge/Sequelize-81a0c2?logo=sequelize&logoColor=white">
+								<img src="https://img.shields.io/badge/Docker-c5e0ec?logo=docker&logoColor=white"><br>
+								<img src="https://img.shields.io/badge/Heroku-080F18?logo=heroku&logoColor=white">
+								<img src="https://img.shields.io/badge/Mocha-333F51?logo=mocha&logoColor=white">
+								<img src="https://img.shields.io/badge/AWS%20S3-81a0c2?logo=amazon-aws&logoColor=white">
+								<img src="https://img.shields.io/badge/PostgreSQL-c5e0ec?logo=postgresql&logoColor=white"><br>
+								<img src="https://img.shields.io/badge/Git-080F18?logo=git&logoColor=white">
+								<img src="https://img.shields.io/badge/Postman-333F51?logo=postman&logoColor=white">
+								<img src="https://img.shields.io/badge/Google%20Maps%20API-81a0c2?logo=googlemaps&logoColor=white">
+								<img src="https://img.shields.io/badge/Postbird%20&%20Postico-c5e0ec??logo=postbird&logoColor=white"><br>
+								<img src="https://img.shields.io/badge/HTML5-080F18?logo=html5&logoColor=white">
+								<img src="https://img.shields.io/badge/CSS3-333F51?logo=css3&logoColor=white">
+								<img src="https://img.shields.io/badge/MaterialUI-81a0c2?logo=mui&logoColor=white">
+								<img src="https://img.shields.io/badge/Figma-c5e0ec?logo=figma&logoColor=white"><br>
+								<img src="https://img.shields.io/badge/Sketch-080F18?logo=sketch&logoColor=white">
+								<img src="https://img.shields.io/badge/Adobe%20Illustrator-333F51?logo=adobe%20illustrator&logoColor=white">
+								<img src="https://img.shields.io/badge/Adobe%20InDesign-81a0c2?logo=Adobe%20InDesign&logoColor=white">
+								<img src="https://img.shields.io/badge/Adobe%20Photoshop-c5e0ec?logo=Adobe%20Photoshop&logoColor=white">
+								<!-- <p></p>Thanks for reading <img src="https://user-images.githubusercontent.com/86431563/148703421-4d7d7e6c-26aa-4bd8-b120-132aa1cfb07d.png" height="12px" width="12px"/> -->
+								<!-- <br>You may contact me <a href="#contact">here</a> or exit <a href="#">here</a> :) -->
+								<div class="linksWrapper">
+									<div class="linkBackward"><- <a href="#projects">projects</a></div>
+									<div class="linkForward"><a href="#awards">awards</a></div>
+									<div class="linkForward"><a href="#experience">experience</a> -></div>
+								</div>
+								</br>
+							</article>
+
+						<!-- Awards -->
+						<article id="awards">
+							<h2 class="major">Awards</h2>
+							Outdated: Update Under Construction
+							
+							<div class="linksWrapper">
+								<div class="linkBackward"><- <a href="#skills">skills</a></div>
+								<div class="linkForward"><a href="#projects">projects</a></div>
+								<div class="linkForward"><a href="#experience">experience</a> --></div>
+							</div>
+						</article>
+
+						<!-- Resume -->
+						<article id="experience">
+							<h2 class="major">Experience</h2>
+
+							<span class="image main">Outdated: Update in Progress
+								<!-- <img src="https://user-images.githubusercontent.com/86431563/148859249-9f363f3f-9d27-421e-b5f0-54b3f450cfb6.jpeg" height="565" alt="" /> -->
+							</span>
+							<div class="linksWrapper">
+								<div class="linkBackward"><- <a href="#projects">projects</a></div>
+								<div class="linkForward"><a href="#skills">skills</a></div>
+								<div class="linkForward"><a href="#awards">awards</a> -></div>
+							</div>
+							</br>
+						</article>
+
+						<!-- Music -->
+						<article id="music">
+							<h2 class="major">Music</h2>
+
+							<span class="image main">Outdated: Update in Progress</span>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0UimzWwAjf7eiNmdD7G5nM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1frQv6Cbxqc4KHdrcNlAYL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3iEebTpbbMPPyD6Z5D47Iu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4ZjcEsC9hblPqJIFhMJ5FN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1iinUSFLN4AhKz0sQKEGIO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+							<div class="linksWrapper">
+								<div class="linkBackward"><- <a href="#motion">motion</a></div>
+								<div class="linkForward"><a href="#photography">photography</a> -></div>
+							</div>
+							</br>
+						</article>
+
+						<!-- Contact -->
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							Outdated: Update Under Construction
+							<form action="https://formspree.io/f/xrgjebgo" method="POST">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field half">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<div class="wrapper">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</form>
+							<!-- <ul class="icons">
+								<li class="edit"><a href="https://github.com/adeswires" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/ad-sw/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li class="edit"><a href="https://issuu.com/ad-sw" class="icon brands fa-leanpub"><span class="label">Issuu</span></a></li>
+							</ul> -->
+							<!-- <br> -->
+							<div class="linksWrapper">
+								<div class="linkBackward"><a href="#skills">skills </a>
+								<!-- <div class="linkForward"><a href="#photography">photography</a> --></div> -->
+							</div>
+						</article>
+
+
+
+
+						<!-- Photography-->
+						<article id="photography" class="photography" width="600">
+							<h2 class="major">Photography:<br>
+								200+ Impromptu Shots.<br>
+								<span id="colorTemp">A visual memoir</span></h2>
+							Never taken a photography class, but I have taken photos on a phone <br>(In progress, under construction - some of the below will be deleted and image carousels added)
+							<!-- <br><br> -->
+							<div class="linksWrapper">
+								<div class="linkBackward"><-- <a href="#motion">motion</a></div>
+								<div class="linkForward"><a href="#music">music</a> --></div>
+							</div>
+								<div class="testt">
+									<ul class="menu2">
+											<li id="scope2">
+												<img class="child" src="./images/81.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/81.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/159.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/159.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/82.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/82.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/87.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/87.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/103.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/103.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/95.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/95.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/73.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/73.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/29(.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/29(.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/23.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/23.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/20.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/20.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/2.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/2.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/152.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/152.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/153.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/153.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/47.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/47.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/46.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/46.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/40(0).jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/40(0).jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/64)).jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/64)).jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/60.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/60.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/117.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/117.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/130.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/130.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/9(.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/9(.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/83(.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/83(.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/123_.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/123_.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/94.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/94.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/163_.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/163_.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/109.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/109.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/133.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/133.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/56.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/56.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/66.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/66.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/3.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/3.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/52.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/52.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/107.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/107.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/141((.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/141((.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/90.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/90.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/44-.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/44-.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/114.jpg" style="" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/114.jpg" style="" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/139.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/139.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/207(.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/207(.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/125.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/125.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/220(1))).jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/220(1))).jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/55).jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/55).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/8.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/8.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/111.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/111.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/85.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/85.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/136.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/136.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/176.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/176.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/120.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/120.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/160_.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/160_.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/110.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/110.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/193.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/193.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/173.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/173.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/41.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/41.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/62.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/62.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/75.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/75.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/12).jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/12).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/118.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/118.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/61-.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/61-.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/67.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/67.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/166).jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/166).jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/31.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/31.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/33.jpg" class="small-image" style="transform: scale(-1,1)">
+												<span id="large"><img height="800" src="./images/33.jpg" id="large-image" style="transform: scale(-1,1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/246.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/246.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/206.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/206.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/96.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/96.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/10((.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/10((.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/16)).jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/16)).jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/222.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/222.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/183)).jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/183)).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/32.jpg" class="small-image" style="transform: scale(-1, -1)">
+												<span id="large"><img height="800" src="./images/32.jpg" id="large-image" style="transform: scale(-1, -1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/63.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/63.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/232.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/232.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/181((.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/181((.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/250_.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/250_.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/25(1).jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/25(1).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/177((.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/177((.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/211.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/211.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/214.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/214.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/102-.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/102-.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/212.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/212.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/7.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/7.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/35.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/35.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/235.jpg"  class="small-image" style="">
+												<span id="large"><img height="800" src="./images/235.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/143.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/143.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/88(2).jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/88(2).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/86.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/86.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/238.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/238.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/6()).jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/6()).jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/34_.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/34_.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/128.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/128.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/59.jpg" class="small-image">
+												<span id="large"><img height="800" src="./images/59.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/108.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/108.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/154.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/154.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/172(-.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/172(-.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/30.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/30.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/165(.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/165(.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/135.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/135.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/48.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/48.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/134.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/134.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/209.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/209.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/180.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/180.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/58.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/58.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/161.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/161.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/93-.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/93-.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/174.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/174.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/115.jpg" class="small-image">
+												<span id="large"><img height="800" src="./images/115.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/155.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/155.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/148.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/148.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/145--.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/145--.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/112.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/112.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/24.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/24.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/104.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/104.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/71.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/71.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/137.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/137.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/239.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/239.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/27.jpg" class="small-image" style="transform: scale(-1,1)">
+												<span id="large"><img height="800" src="./images/27.jpg" id="large-image" style="transform: scale(-1,1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/188.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/188.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/126(.jpg" class="small-image" style="transform: scale(1,-1)">
+												<span id="large"><img height="800" src="./images/126(.jpg" id="large-image" style="transform: scale(1,-1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/106+.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/106+.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/38).jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/38).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/11(2).jpeg" class="small-image" style="transform: scale(-1,-1)">
+												<span id="large"><img height="800" src="./images/11(2).jpeg" id="large-image" style="transform: scale(-1,-1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/37.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/37.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/78.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/78.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/54.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/54.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/150.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/150.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/132.jpg" class="small-image" style="transform: scale(-1,-1)">
+												<span id="large"><img height="800" src="./images/132.jpg" id="large-image" style="transform: scale(-1,-1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/119.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/119.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/19(.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/19(.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/51.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/51.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/122.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/122.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/43(.jpg" class="small-image" style="transform: scale(-1,1)">
+												<span id="large"><img height="800" src="./images/43(.jpg" id="large-image" style="transform: scale(-1,1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/74.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/74.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/39.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/39.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/65.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/65.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/162.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/162.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/147.jpg" class="small-image" style="transform: scale(1,-1)">
+												<span id="large"><img height="800" src="./images/147.jpg" id="large-image" style="transform: scale(1,-1)"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/92.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/92.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/53.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/53.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/171.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/171.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/185(.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/185(.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/99.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/99.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/194.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/194.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/80.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/80.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/187.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/187.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/184.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/184.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/21(1).jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/21(1).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/244.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/244.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/101.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/101.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/224.jpeg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/224.jpeg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/14.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/14.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/144.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/144.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/72.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/72.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/15.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/15.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/105.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/105.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/175.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/175.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/116.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/116.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/49.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/49.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/76.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/76.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/142.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/142.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/229.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/229.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/22(.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/22(.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/4.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/4.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/218.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/218.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/79.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/79.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/70).jpg" class="small-image">
+												<span id="large"><img height="800" src="./images/70).jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/164.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/164.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/240.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/240.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/189.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/189.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/68--.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/68--.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/127.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/127.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/156.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/156.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/57.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/57.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/151.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/151.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/192.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/192.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/149__.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/149__.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/45.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/45.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/140.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/140.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/36.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/36.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/157.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/157.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/182.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/182.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/178.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/178.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/42.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/42.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/129.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/129.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/91.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/91.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/247.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/247.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/121.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/121.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/254.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/254.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/259.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/259.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/255.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/255.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/257.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/257.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/253.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/253.jpg" id="large-image"></span>
+											</li>
+											<!-- <li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li>
+											<li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li>
+											<li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li>
+											<li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li>
+											<li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li>
+											<li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li>
+											<li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li>
+											<li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li><li><img src="./images/0.jpg"></li> -->
+											<!--
+											<li id="scope2">
+												<img class="child" src="./images/251.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/251.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/252.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/252.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/261.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/261.jpg" id="large-image"></span>
+											</li> -->
+											<!--
+											<li id="scope2">
+												<img class="child" src="./images/228.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/228.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/230.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/230.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/233.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/233.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/249.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/249.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/98.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/98.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/250_.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/250_.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/158.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/158.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/13.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/13.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/203.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/203.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/196.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/196.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/138.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/138.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/124.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/124.jpg" id="large-image"></span>
+											</li>
+											<li id="scope2">
+												<img class="child" src="./images/17.jpg" class="small-image" style="">
+												<span id="large"><img height="800" src="./images/17.jpg" id="large-image"></span>
+											</li> -->
+											<li class="bg"></li>
+									</ul>
+								</div>
+						</article>
+
+						<!-- Elements -->
+						<article id="elements">
+							<h2 class="major">Elements</h2>
+
+							<section>
+								<h3 class="major">Text</h3>
+								<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+								This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+								This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+								<hr />
+								<h2>Heading Level 2</h2>
+								<h3>Heading Level 3</h3>
+								<h4>Heading Level 4</h4>
+								<h5>Heading Level 5</h5>
+								<h6>Heading Level 6</h6>
+								<hr />
+								<!-- <h4>Preformatted</h4> -->
+								<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+							</section>
+
+							<section>
+								<h3 class="major">Lists</h3>
+
+								<h4>Unordered</h4>
+								<ul>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Sagittis adipiscing.</li>
+									<li>Felis enim feugiat.</li>
+								</ul>
+
+								<h4>Alternate</h4>
+								<ul class="alt">
+									<li>Dolor pulvinar etiam.</li>
+									<li>Sagittis adipiscing.</li>
+									<li>Felis enim feugiat.</li>
+								</ul>
+
+								<h4>Ordered</h4>
+								<ol>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Etiam vel felis viverra.</li>
+									<li>Felis enim feugiat.</li>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Etiam vel felis lorem.</li>
+									<li>Felis enim et feugiat.</li>
+								</ol>
+								<h4>Icons</h4>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								</ul>
+
+								<h4>Actions</h4>
+								<ul class="actions">
+									<li><a href="#" class="button primary">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions stacked">
+									<li><a href="#" class="button primary">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+							</section>
+
+							<section>
+								<h3 class="major">Table</h3>
+								<h4>Default</h4>
+								<div class="table-wrapper">
+									<table>
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>Description</th>
+												<th>Price</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Item One</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item Two</td>
+												<td>Vis ac commodo adipiscing arcu aliquet.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item Three</td>
+												<td> Morbi faucibus arcu accumsan lorem.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item Four</td>
+												<td>Vitae integer tempus condimentum.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item Five</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+												<td>100.00</td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+
+								<h4>Alternate</h4>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>Description</th>
+												<th>Price</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Item One</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item Two</td>
+												<td>Vis ac commodo adipiscing arcu aliquet.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item Three</td>
+												<td> Morbi faucibus arcu accumsan lorem.</td>
+												<td>29.99</td>
+											</tr>
+											<tr>
+												<td>Item Four</td>
+												<td>Vitae integer tempus condimentum.</td>
+												<td>19.99</td>
+											</tr>
+											<tr>
+												<td>Item Five</td>
+												<td>Ante turpis integer aliquet porttitor.</td>
+												<td>29.99</td>
+											</tr>
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+												<td>100.00</td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+							</section>
+
+							<section>
+								<h3 class="major">Buttons</h3>
+								<ul class="actions">
+									<li><a href="#" class="button primary">Primary</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions">
+									<li><a href="#" class="button">Default</a></li>
+									<li><a href="#" class="button small">Small</a></li>
+								</ul>
+								<ul class="actions">
+									<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+									<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+								</ul>
+								<ul class="actions">
+									<li><span class="button primary disabled">Disabled</span></li>
+									<li><span class="button disabled">Disabled</span></li>
+								</ul>
+							</section>
+
+							<section>
+								<h3 class="major">Form</h3>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="demo-name">Name</label>
+											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+										</div>
+										<div class="field half">
+											<label for="demo-email">Email</label>
+											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+										</div>
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<select name="demo-category" id="demo-category">
+												<option value="">-</option>
+												<option value="1">Manufacturing</option>
+												<option value="1">Shipping</option>
+												<option value="1">Administration</option>
+												<option value="1">Human Resources</option>
+											</select>
+										</div>
+										<div class="field half">
+											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+											<label for="demo-priority-low">Low</label>
+										</div>
+										<div class="field half">
+											<input type="radio" id="demo-priority-high" name="demo-priority">
+											<label for="demo-priority-high">High</label>
+										</div>
+										<div class="field half">
+											<input type="checkbox" id="demo-copy" name="demo-copy">
+											<label for="demo-copy">Email me a copy</label>
+										</div>
+										<div class="field half">
+											<input type="checkbox" id="demo-human" name="demo-human" checked>
+											<label for="demo-human">Not a robot</label>
+										</div>
+										<div class="field">
+											<label for="demo-message">Message</label>
+											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+							</section>
+
+						</article>
+
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<!-- <p class="copyright">&copy;Web design by <a href="https://html5up.net">HTML5 UP</a>.<br>
+						Background Pittsburgh map art found via <a href="https://www.pinterest.com/pin/442619469618786537/">this link</a>.
+					</p> -->
+				</footer>
+
+		</div>
+
+	<!-- BG -->
+		<div id="bg"></div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
